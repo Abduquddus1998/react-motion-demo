@@ -8,10 +8,13 @@ import Background6 from "./assets/images/background6.jpg";
 import Background7 from "./assets/images/background7.jpg";
 
 import styles from "./App.module.scss";
+import Box from "./Box";
 
 function App() {
   const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
   const FadeUp = batch(Fade(), Move(), Sticky());
+
+
 
   return (
     <div className={styles.app}>
@@ -76,6 +79,12 @@ function App() {
               </Animator>
           </ScrollPage>
       </ScrollContainer>
+
+        <Box/>
+         <Box/>
+         <Box/>
+         <Box/>
+         <Box/>
     </div>
   );
 }

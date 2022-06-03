@@ -22,12 +22,22 @@
     }
   }
 
-
+  .box {
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow: hidden;
+    //border-radius: 15px;
+    //background-color: #61dafb;
+  }
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+body {
+  scroll-behavior: smooth;
 }
 
 @media (prefers-reduced-motion: no-preference) {
